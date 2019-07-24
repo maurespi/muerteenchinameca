@@ -98,15 +98,15 @@
     line-height: 10px;
 
     background: rgb(231, 221, 176);
-    /* color: rgb(10, 10, 10); */
-    /* border-radius: 10px;
+    color: rgb(10, 10, 10);
+    border-radius: 10px;
     text-indent: -9999px;
-    margin-right: 7px; */
+    margin-right: 7px;
 
 
-    /* -webkit-box-shadow: 0 0 2px #4E443C;
-    -moz-box-shadow: 0 0 2px #4E443C; */
-    /* box-shadow: 0 0 2px #4E443C; */
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
 } 
 
 .jcarousel-pagination a.active {
