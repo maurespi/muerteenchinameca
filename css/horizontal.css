@@ -1,22 +1,22 @@
 ﻿@font-face{
     font-family:'roboto-bold';
-    src: url(robotto/Roboto-Bold.ttf) format("truetype");
+    src: url(/robotto/Roboto-Bold.ttf) format("truetype");
 }
 
 @font-face{
     font-family:'roboto-regular';
-    src: url(robotto/Roboto-Regular.ttf) format("truetype");
+    src: url(/robotto/Roboto-Regular.ttf) format("truetype");
     
 }
 
 @font-face{
     font-family:'SortsMillGoudy-Regular';
-    src: url(Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf) format("truetype");
+    src: url(/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf) format("truetype");
 }
 
 @font-face{
     font-family:'Charm-Regular';
-    src: url(Charm/Charm-Regular.ttf) format("truetype");
+    src: url(/Charm/Charm-Regular.ttf) format("truetype");
 }
 
 *,
@@ -41,10 +41,15 @@ cursor:pointer;
     
 }
 
-
+.revolver{
+    position:relative; 
+    top: -100px; 
+    left:20px; 
+    z-index:1;
+}
 
 body {
-    background: rgb(255, 81, 0);
+    background: #DDB954;
     /* height: 100%; */
     padding: 0;
     margin: 0;
@@ -52,7 +57,7 @@ body {
 }
 
 html {
-    background: rgb(255, 81, 0);
+    /* background: rgb(255, 81, 0); */
     height: 100%;
 }
 
@@ -167,7 +172,7 @@ pre {
   }
   
   .wrapper {
-      max-width: 885px;
+      max-width: 600px;
       padding: 0 20px 40px 20px;
       margin: auto;
   }
@@ -259,10 +264,31 @@ a.nounderline:link {
 
 @media (max-width: 645px){
     .p1{
-        font-size:46px;
+        font-size:36px;
+    }
+    .p2{
+        font-size:25px;
+    }
+    .revolver{
+        position:relative; 
+        top: -45px; 
+        left:0px; 
+        z-index:1;
+    }
+}
+
+@media (max-width: 320px){
+    .p1{
+        font-size:30px;
     }
     .p2{
         font-size:20px;
+    }
+    .revolver{
+        position:relative; 
+        top: 25px; 
+        left:0px; 
+        z-index:1;
     }
 }
 
