@@ -9,15 +9,15 @@
                     width = carousel.innerWidth();
 
                 if (width >= 800) {
-                    width = width / 8;
+                    width = width / 5;
                 } 
 
                 if (width >= 500) {
                     width = width / 5;
                 }
                 
-                else if (width >= 200) {
-                    width = width / 3;
+                else if (width >= 250) {
+                    width = width / 5;
                 }
 
                 carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
@@ -28,12 +28,12 @@
 
         $('.jcarousel-control-prev')
             .jcarouselControl({
-                target: '-=3'
+                target: '-=5'
             });
 
         $('.jcarousel-control-next')
             .jcarouselControl({
-                target: '+=2'
+                target: '+=5'
             });
 
         $('.jcarousel-pagination')
