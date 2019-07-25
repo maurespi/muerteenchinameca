@@ -1,22 +1,22 @@
 ﻿@font-face{
     font-family:'roboto-bold';
-    src: url(robotto/Roboto-Bold.ttf) format("truetype");
+    src: url(/robotto/Roboto-Bold.ttf) format("truetype");
 }
 
 @font-face{
     font-family:'roboto-regular';
-    src: url(robotto/Roboto-Regular.ttf) format("truetype");
+    src: url(/robotto/Roboto-Regular.ttf) format("truetype");
     
 }
 
 @font-face{
     font-family:'SortsMillGoudy-Regular';
-    src: url(Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf) format("truetype");
+    src: url(/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf) format("truetype");
 }
 
 @font-face{
     font-family:'Charm-Regular';
-    src: url(Charm/Charm-Regular.ttf) format("truetype");
+    src: url(/Charm/Charm-Regular.ttf) format("truetype");
 }
 
 *,
