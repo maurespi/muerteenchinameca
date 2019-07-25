@@ -17,7 +17,7 @@
                 }
                 
                 else if (width >= 300) {
-                    width = width / 2;
+                    width = width / 3;
                 }
 
                 carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
@@ -28,7 +28,7 @@
 
         $('.jcarousel-control-prev')
             .jcarouselControl({
-                target: '-=2'
+                target: '-=3'
             });
 
         $('.jcarousel-control-next')
