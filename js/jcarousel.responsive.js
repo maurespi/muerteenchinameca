@@ -13,11 +13,11 @@
                 } 
 
                 if (width >= 500) {
-                    width = width / 6;
+                    width = width / 5;
                 }
                 
                 else if (width >= 300) {
-                    width = width / 4;
+                    width = width / 2;
                 }
 
                 carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
@@ -28,12 +28,12 @@
 
         $('.jcarousel-control-prev')
             .jcarouselControl({
-                target: '-=8'
+                target: '-=2'
             });
 
         $('.jcarousel-control-next')
             .jcarouselControl({
-                target: '+=8'
+                target: '+=2'
             });
 
         $('.jcarousel-pagination')
