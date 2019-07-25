@@ -16,7 +16,7 @@
                     width = width / 5;
                 }
                 
-                else if (width >= 300) {
+                else if (width >= 200) {
                     width = width / 3;
                 }
 
