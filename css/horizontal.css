@@ -53,7 +53,7 @@ body {
     /* height: 100%; */
     padding: 0;
     margin: 0;
-    font-family:'roboto-regular';
+    font-family:'Roboto-Regular';
 }
 
 html {
@@ -73,14 +73,14 @@ p{
 .p1 {
     font-size: 80px;
     text-justify: right;
-    font-family:'roboto-bold';
+    font-family:'Roboto-Bold';
     letter-spacing: 0px;
 }
 
 .p2 {
     font-size: 40px;
     text-justify: right;
-    font-family:'roboto-bold'; 
+    font-family:'Roboto-Bold'; 
 }
 
 .p3 {
@@ -104,14 +104,14 @@ p{
 
 .p6 {
     font-size: 50px;
-    font-family:'roboto-bold';
+    font-family:'Roboto-Bold';
     color: rgba(25, 10, 68, 0.87);
 }
 
 .p7 {
     font-size: 20px;
     text-align: right;
-    font-family:'roboto-bold';
+    font-family:'Roboto-Bold';
     color: rgb(247, 240, 240);
     
     
