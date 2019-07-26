@@ -128,14 +128,17 @@ p{
     font-size:80px;
     font-family:'Charm-Regular';
     color:rgb(247, 240, 240);
-    margin: 0;
+    margin: 20;
+    line-height: 1;
+   
 }
 
 .p10 {
     font-size:45px;
     font-family:'SortsMillGoudy-Regular';
     color: rgba(25, 10, 68, 0.87);
-    line-height: 1;
+    line-height: 1; 
+    
 }
 
 .p11 {
