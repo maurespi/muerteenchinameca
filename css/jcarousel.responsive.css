@@ -55,7 +55,8 @@
 .jcarousel img:hover {
     border:5px;
     border-style:solid;
-    border-color: rgb(243, 241, 240, 0.6);    
+    border-color: rgb(243, 241, 240, 0.6);
+    -webkit-border-color: rgb(243, 241, 240, 0.6);
 }
 
 
